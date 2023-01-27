@@ -1,7 +1,6 @@
 const controle = document.querySelectorAll("[data-controle]")
 const estatisticas = document.querySelectorAll("[data-estatistica]")
 
-console.log(estatisticas)  // apagar
 
 const pecas = {
     "bracos": {
@@ -55,5 +54,9 @@ function manipulaDados (operacao, controle) {
 }
 
 function atualizaEstatistica (peca) {
-    console.log(peca) // apagar
+
+    estatisticas.forEach( (elemento) => {
+        elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
+    })
 }
+
