@@ -148,9 +148,28 @@ main {
     color: var(--main-branco)
 }
 
+.troca-cor {
+    margin-top: 1em;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0.2em 1em;
+    float: right;
+    border: 3px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
+    cursor: pointer;   
+
+    font-family: 'Teko', sans-serif;
+}
+
+.troca-cor:hover {
+    background: var(--main-preto);
+    color: var(--main-branco)
+}
 
 
-/****************************** Estatísticas *****/
+
+/********************** Estatísticas *****/
 .estatisticas {
     flex-basis: 23%;
     padding: 2em 2em 0;
