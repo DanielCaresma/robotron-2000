@@ -9,6 +9,11 @@ robo.addEventListener("click", () => {
 })
 
 
+// Função para alterar as cores com botões de seleção
+
+// function trocaImagem(cor){
+//     document.querySelector(".robo").src="./img/Robotron 2000 - " + cor + "/robotron.png";
+//  }
 
 
 

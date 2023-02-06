@@ -37,6 +37,19 @@ main {
     position: relative;
 }
 
+/* Classes dos botões que alteram as cores */
+
+/* .botoes {
+   right: 5%;
+   bottom: 10%;
+   display: flex;
+   z-index: 1;
+}
+
+.alterar {
+    margin: 2px;
+} */
+
 .robo {
     height: 110%;
     z-index: 1;
@@ -166,8 +179,6 @@ main {
     background: var(--main-preto);
     color: var(--main-branco)
 }
-
-
 
 /********************** Estatísticas *****/
 .estatisticas {
