@@ -37,7 +37,7 @@ main {
     position: relative;
 }
 
-/* Classes dos botões que alteram as cores */
+/* =========> Classes dos botões que alteram as cores <=========*/
 
 /* .botoes {
    right: 5%;
@@ -48,7 +48,9 @@ main {
 
 .alterar {
     margin: 2px;
-} */
+} 
+  ==========>       <===========
+*/
 
 .robo {
     height: 110%;
@@ -144,7 +146,7 @@ main {
     border-color: var(--main-cinza);
 }
 
-.producao {
+.producao{
     margin-top: 1em;
     font-size: 2em;
     text-transform: uppercase;
@@ -237,6 +239,17 @@ main {
     order: 1;
     flex-basis: 35%;
     margin: 10px 0 0;
+}
+
+.caixa-de-selecao {
+    margin-top: 1em;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0.2em 1em;
+    float: right;
+    border: 3px solid var(--main-branco);
+    background: var(--main-branco);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1600px) {
