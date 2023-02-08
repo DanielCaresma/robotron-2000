@@ -1,16 +1,3 @@
-const robo = document.querySelector("#robotron")
-const caixa = document.querySelector("#caixa-de-selecao")
-const robos = {
-    azul: "img/Robotron 2000 - Azul/robotron.png",
-    branco: "img/Robotron 2000 - Branco/robotron.png",
-    preto: "img/Robotron 2000 - Preto/robotron.png",
-    rosa: "img/Robotron 2000 - Rosa/robotron.png",
-    vermelho: "img/Robotron 2000 - Vermelho/robotron.png",
-    amarelo: "img/Robotron 2000 - Amarelo/robotron.png"
-}
-
-
-
 // =====> Muda o robo percorrendo o array com os endereços de imagem <========
 
 // const robo = document.querySelector("#robotron")
@@ -37,13 +24,3 @@ const robos = {
 //         contador++
 //     }
 // })
-
-// ==========> Função para alterar as cores com botões de seleção <================
-
-// function trocaImagem(cor){
-//     document.querySelector(".robo").src="./img/Robotron 2000 - " + cor + "/robotron.png";
-//  }
-
-
-
-

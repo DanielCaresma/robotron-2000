@@ -37,21 +37,6 @@ main {
     position: relative;
 }
 
-/* =========> Classes dos botões que alteram as cores <=========*/
-
-/* .botoes {
-   right: 5%;
-   bottom: 10%;
-   display: flex;
-   z-index: 1;
-}
-
-.alterar {
-    margin: 2px;
-} 
-  ==========>       <===========
-*/
-
 .robo {
     height: 110%;
     z-index: 1;
@@ -163,29 +148,12 @@ main {
     color: var(--main-branco)
 }
 
-.troca-cor {
-    margin-top: 1em;
-    font-size: 2em;
-    text-transform: uppercase;
-    padding: 0.2em 1em;
-    float: right;
-    border: 3px solid var(--main-branco);
-    background: var(--main-branco);
-    clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
-    cursor: pointer;   
-
-    font-family: 'Teko', sans-serif;
-}
-
-.troca-cor:hover {
-    background: var(--main-preto);
-    color: var(--main-branco)
-}
-
 /********************** Estatísticas *****/
 .estatisticas {
     flex-basis: 23%;
     padding: 2em 2em 0;
+
+    min-width: 230px;
 }
 
 .estatistica {
