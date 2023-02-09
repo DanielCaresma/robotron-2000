@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Robotron-2000 é a simulação de uma tela de jogo onde o usuário pode alterar a cor do personagem e adcionar peças aumentando suas skills dinamicamente.
+O Robotron-2000 é a simulação de uma tela de jogo onde o usuário pode alterar a cor do personagem e adicionar peças aumentando suas skills dinamicamente.
 
 - [Visite o projeto online](https://robotron-2000-iota-rose.vercel.app/)
 
